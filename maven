@@ -1,0 +1,26 @@
+STEP 1 - Download JAVA latest version on your local machine 
+       - go to JAVA folder > jdk-19 > bin 
+       - copy the path 
+STEP 2 - open the EDIT THE SYSTEM ENVIRONMENT VARIABLES in  local machine 
+       - click EDIT ENVIRONMENT VARIABLE 
+       - Go to SYSTEM VARIABLE 
+       - click on the PATH 
+       - click on EDIT 
+       - click on NEW
+       - PASTE the path that u copied in the STEP 1
+       - Go to gitbash and type "JAVA --vesrion" to check whether java has been installed on your system or not 
+STEP 3 - Download MAVEN from the given link https://maven.apache.org/download.cgi
+       - Fullfill the SYSTEM REQUIREMENTS given in the above link before installing MAVEN 
+       - click and dowanload BINARY ZIP ARCHIEVE file 
+       - extract the files from the folder 
+       - go to bin folder and copy the path 
+       - follow STEP 2 again for downlaoding maven 
+       - to check whether maven has been installed succefully on your system go to gitbash and type " mvn --version"
+STEP 4 - go again to EDIT THE SYSTEM ENVIRONMENT VARIABLE 
+       -  find and click on the JAVA_HOME > Click on "NEW" 
+       - write JAVA_HOME in the variable name ]
+       - again open jdk-19 folder and copy the path and paste it in the variable value 
+       - do the same for SYSTEM VARIAVLE 
+STEP 5 - CLone the repository to your local machine using the command git clone and paste the link 
+       - after cloning go to the selected folder through gitabsh where you have cloned the repository
+       - 
