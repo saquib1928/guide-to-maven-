@@ -23,4 +23,6 @@ STEP 4 - go again to EDIT THE SYSTEM ENVIRONMENT VARIABLE
        - do the same for SYSTEM VARIAVLE 
 STEP 5 - CLone the repository to your local machine using the command git clone and paste the link 
        - after cloning go to the selected folder through gitabsh where you have cloned the repository
+       - open POM.XML
+       - use "mvn package" command to build the code
        - 
