@@ -28,3 +28,17 @@ STEP 5 - CLone the repository to your local machine using the command git clone 
        - if any failure occur , google the error and refctify it 
        - majorily changes have to be done in POM.XML file 
        
+                                    SOME IMPORTANT POINTS 
+                  
+                  (1) There are two subdirectories of this structure: src and target.
+                  (2) The src directory contains all of the source material for building the project, its site and so on.
+                  (3) The src directory is the root directory of source code and test code.
+                  (4) The main directory is the root directory for source code related to the application itself, not test code.
+                  (5) The test directory contains the test source code.
+                  (6) The java directories under main and test contains the Java code for the application itself which is under main and the Java code for the tests which is under test.
+                  (7) The resources directory contains the resources needed by your project.
+                  (8) The target directory is created by Maven. It contains all the compiled classes, JAR files etc.
+                  (9) When executing the mvn clean command, Maven would clean the target directory.
+                 (10) The webapp directory contains Java web application, if the project is a web application.
+                 (11) The webapp directory is the root directory of the web application. The webapp directory contains the WEB-INF directory.
+       
